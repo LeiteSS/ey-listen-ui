@@ -1,0 +1,140 @@
+:root{
+    --verde: #157c07;
+    --preto: #030303; 
+}
+
+/* Base*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+header .logo {
+    color: var(--verde);
+    font-family: 'Arial Black';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 0.625rem;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* Musica, Podcast ou Audiolivro principal */
+.album-principal {
+    font-size: 1rem;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/images/samurai-eddiee.gif');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.album-principal .descricao {
+    margin-top: 0.625rem;
+    margin-bottom: 2.5rem;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 0.5rem;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.album-principal .container {
+    width: 70%;
+}
+
+.box-albums {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-albums {
+    margin-top: 5px;
+}
+
+.mais-tocadas {
+    color: rgb(112, 116, 116);
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+footer .nome {
+    color: #AAA;
+    font-family: 'Arial Black';
+    font-size: 20px;
+}
+
+footer .social-media a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 0.625rem;
+}
+
+header .social-media a:hover {
+    color: #fff;
+}
